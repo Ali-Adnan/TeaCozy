@@ -1,0 +1,147 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*header styles*/
+header {
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 5px;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+ }
+
+ a {
+   color: seashell;
+ }
+
+ /*CSS for Main Content Section Begins*/
+
+div {
+  display: block;
+}
+.main {
+  margin-top: 70px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  display: flex;
+}
+
+.copy {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.store {
+  padding-top: 20px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 30px;
+  width: 1200px;
+  margin: 20px auto;
+  align-items: center;
+}
+
+#locations .flex-container {
+  margin: auto;
+  justify-content: center;
+}
+
+.flex-container.locations {
+  padding: 5px;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 5px 20px;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+}
+
+.location span {
+  margin: auto;
+}
+
+#locations h2 {
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+}
+
+#contact h2 {
+  padding: 10px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
